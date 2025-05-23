@@ -3,32 +3,29 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "PixifyLab",
+    description: "This is PixifyLab, an AI-powered image generation platform that allows users to train custom AI models with their own photos and generate personalized images in seconds.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Next.js", "TypeScript", "Prisma", "TailwindCSS", "Replicate API"],
+    demoUrl: "https://www.pixifylab.com/",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "NextGenAI",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Next Gen AI! This cutting-edge SaaS web application is here to revolutionize the future of artificial intelligence. Built onNext.js with seamless integration of the Gemini API.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Next.js", "Clerk", "TailwindCSS", "Gemini API","Neon PostgreSQL"],
+    demoUrl: "https://nextgenai.one/",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Gemini AI Clone",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      " Gemini AI clone using React and Vite, replicating the core UI and functionality of the original. The project emphasizes fast performance, clean design, and interactive user experience.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Reactjs", "Vite", "TailwindCSS" , "Gemini API"],
+    demoUrl: "https://geminiaiclone.netlify.app/",
   },
 ];
 
@@ -87,7 +84,7 @@ export const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                     
                     </a>
                   </div>
                 </div>
@@ -100,7 +97,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Sanjaykumar2210"
           >
             Check My Github <ArrowRight size={16} />
           </a>

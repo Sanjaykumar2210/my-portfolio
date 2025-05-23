@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { SpinnerLogo } from "./SpinnerLogo";
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -31,12 +32,12 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a
-          className="text-xl font-bold text-primary flex items-center"
+          className="text-xl font-bold text-primary flex items-center gap-2 group"
           href="#hero"
         >
+          <SpinnerLogo className="group-hover:scale-110 transition-transform duration-300" />
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> PedroTech </span>{" "}
-            Portfolio
+            
           </span>
         </a>
 
@@ -54,7 +55,6 @@ export const Navbar = () => {
         </div>
 
         {/* mobile nav */}
-
         <button
           onClick={() => setIsMenuOpen((prev) => !prev)}
           className="md:hidden p-2 text-foreground z-50"
