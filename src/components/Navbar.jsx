@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { SpinnerLogo } from "./SpinnerLogo";
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -35,7 +34,49 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center gap-2 group"
           href="#hero"
         >
-          <SpinnerLogo className="group-hover:scale-110 transition-transform duration-300" />
+          <div className="w-12 h-12 group-hover:scale-110 transition-transform duration-300">
+            <svg width="48" height="48" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+              {/* Outer ring with dashes */}
+              <g>
+                {[...Array(12)].map((_, i) => (
+                  <rect
+                    key={i}
+                    x="15"
+                    y="2"
+                    width="2"
+                    height="6"
+                    className="fill-primary"
+                    style={{
+                      transform: `rotate(${i * 30}deg)`,
+                      transformOrigin: '16px 16px',
+                      opacity: i % 3 === 0 ? 1 : i % 3 === 1 ? 0.8 : 0.6,
+                    }}
+                  />
+                ))}
+              </g>
+              
+              {/* Middle hexagon */}
+              <g>
+                {[...Array(6)].map((_, i) => (
+                  <path
+                    key={i}
+                    d="M16 6L16 14"
+                    className="stroke-primary"
+                    style={{
+                      strokeWidth: 2,
+                      strokeOpacity: 0.6,
+                      transform: `rotate(${i * 60}deg)`,
+                      transformOrigin: '16px 16px',
+                    }}
+                  />
+                ))}
+              </g>
+              
+              {/* Inner core */}
+              <circle cx="16" cy="16" r="4" className="fill-primary" fillOpacity="0.2" />
+              <circle cx="16" cy="16" r="3" fill="none" className="stroke-primary" strokeOpacity="0.4" />
+            </svg>
+          </div>
           <span className="relative z-10">
             
           </span>
@@ -60,7 +101,7 @@ export const Navbar = () => {
           className="md:hidden p-2 text-foreground z-50"
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
         <div
