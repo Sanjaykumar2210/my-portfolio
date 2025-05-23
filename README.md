@@ -2,7 +2,7 @@
 
 <div align="center">
   <br />
-  <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">
+  <a href="" target="_blank">
     <img src="./banner.png" alt="Portfolio Website Banner">
   </a>
   <br />
@@ -15,8 +15,7 @@
   </div>
   <h3 align="center">Create a Stunning Developer Portfolio with Animations, Dark Mode, and Projects Showcase</h3>
   <div align="center">
-    Follow the full video tutorial on 
-    <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank"><b>YouTube</b></a>
+   
   </div>
   <br />
 </div>
@@ -36,7 +35,7 @@
 
 In this tutorial, you'll learn how to build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and **Lucide Icons**. From dark mode support to responsive animations and deployable project showcases, this video walks you through every step—perfect for developers looking to level up their frontend skills or apply for jobs.
 
-🎥 Watch the full tutorial: [YouTube](https://youtu.be/YOUR_VIDEO_ID)
+
 
 ---
 
