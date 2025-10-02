@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-          I’m a software developer with a B.Tech in IT and over a year of experience in Next.js and modern web development. I’m a persistent team player who thrives on solving complex problems and building scalable solutions. Outside work, I’m a fitness enthusiast who values discipline, balance, and mental clarity.
+          I’m a software developer with a B.Tech in IT and over a year of experience in Full Stack and modern web development. I’m a persistent team player who thrives on solving complex problems and building scalable solutions. Outside work, I’m a fitness enthusiast who values discipline, balance, and mental clarity.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

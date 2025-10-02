@@ -9,7 +9,69 @@ export const WorkExperience = () => {
         </h2>
 
         <div className="space-y-8">
-          {/* Experience Card */}
+          {/* Current Position - Sokvedge */}
+          <div className="gradient-border p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+            <div className="flex flex-col md:flex-row gap-6">
+              {/* Company Info */}
+              <div className="md:w-1/3">
+                <div className="flex items-center gap-3 mb-3">
+                  <Building2 className="h-5 w-5 text-primary" />
+                  <h3 className="text-xl font-semibold">Solvedge</h3>
+                </div>
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <Calendar className="h-4 w-4" />
+                  <span>2025 - Present</span>
+                </div>
+              </div>
+
+              {/* Role & Responsibilities */}
+              <div className="md:w-2/3">
+                <h4 className="text-lg font-semibold mb-4">Angular Developer</h4>
+                <div className="space-y-3">
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-1" />
+                    <p className="text-muted-foreground">
+                      Developing scalable single-page applications using Angular 17+ with TypeScript, implementing modern component architecture and reactive programming patterns.
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-1" />
+                    <p className="text-muted-foreground">
+                      Building responsive user interfaces with Angular Material and custom components, ensuring cross-browser compatibility and mobile-first design principles.
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-1" />
+                    <p className="text-muted-foreground">
+                      Implementing state management solutions using NgRx and RxJS for complex data flow, improving application performance and maintainability.
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-1" />
+                    <p className="text-muted-foreground">
+                      Collaborating with backend teams to integrate RESTful APIs and GraphQL endpoints, implementing robust error handling and loading states.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Tech Stack */}
+                <div className="mt-6">
+                  <div className="flex flex-wrap gap-2">
+                    {['Angular 17+', 'TypeScript', 'RxJS', 'NgRx', 'Angular Material', 'SCSS',].map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Previous Position - Data Lancet */}
           <div className="gradient-border p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
             <div className="flex flex-col md:flex-row gap-6">
               {/* Company Info */}
@@ -20,7 +82,7 @@ export const WorkExperience = () => {
                 </div>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Calendar className="h-4 w-4" />
-                  <span>2024 - Present</span>
+                  <span>2024 - 2025</span>
                 </div>
               </div>
 

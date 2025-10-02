@@ -16,7 +16,7 @@ const projects = [
       "Next Gen AI! This cutting-edge SaaS web application is here to revolutionize the future of artificial intelligence. Built onNext.js with seamless integration of the Gemini API.",
     image: "/projects/project2.png",
     tags: ["Next.js", "Clerk", "TailwindCSS", "Gemini API","Neon PostgreSQL"],
-    demoUrl: "https://nextgenai.one/",
+    demoUrl: "https://next-gen-ai-29hf.vercel.app/",
   },
   {
     id: 3,

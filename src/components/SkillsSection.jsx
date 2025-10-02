@@ -8,7 +8,8 @@ import {
   FaNodeJs, 
   FaGitAlt, 
   FaFigma,
-  FaGithub
+  FaGithub,
+  FaAngular,
 } from "react-icons/fa";
 import { 
   SiTypescript, 
@@ -17,6 +18,7 @@ import {
   SiExpress, 
   SiPostgresql,
   SiCloudflare,
+  SiMongodb
 } from "react-icons/si";
 import { VscTerminalCmd, VscCode } from "react-icons/vsc";
 
@@ -25,6 +27,7 @@ const skills = [
   { name: "HTML/CSS", level: 95, category: "frontend", icon: FaHtml5, color: "#E44D26" },
   { name: "JavaScript", level: 90, category: "frontend", icon: FaJs, color: "#F7DF1E" },
   { name: "Reactjs", level: 90, category: "frontend", icon: FaReact, color: "#61DAFB" },
+  { name: "Angular", level: 80, category: "frontend", icon: FaAngular, color: "#DD0031" },
   { name: "TypeScript", level: 85, category: "frontend", icon: SiTypescript, color: "#3178C6" },
   { name: "Tailwind CSS", level: 90, category: "frontend", icon: SiTailwindcss, color: "#06B6D4" },
   { name: "Next.js", level: 80, category: "frontend", icon: SiNextdotjs, color: "#000000" },
@@ -33,6 +36,7 @@ const skills = [
   { name: "Node.js", level: 80, category: "backend", icon: FaNodeJs, color: "#339933" },
   { name: "Express", level: 75, category: "backend", icon: SiExpress, color: "#000000" },
   { name: "PostgreSQL", level: 65, category: "backend", icon: SiPostgresql, color: "#4169E1" },
+  { name: "MongoDB", level: 65, category: "backend", icon: SiMongodb, color: "#4169E1" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools", icon: FaGithub, color: "#181717" },
