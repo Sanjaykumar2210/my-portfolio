@@ -20,12 +20,21 @@ const projects = [
   },
   {
     id: 3,
-    title: "Gemini AI Clone",
+    title: "StackScope",
     description:
-      " Gemini AI clone using React and Vite, replicating the core UI and functionality of the original. The project emphasizes fast performance, clean design, and interactive user experience.",
+      " StackScope is a web application that allows users to search for curated ai tools , libraries , roadmaps and resources built using next.js and shadcn ui ",
     image: "/projects/project3.png",
-    tags: ["Reactjs", "Vite", "TailwindCSS" , "Gemini API"],
-    demoUrl: "https://geminiaiclone.netlify.app/",
+    tags: ["Next.js", "Shadcn UI", "TailwindCSS", "Lucide Icons", "Radix UI"],
+    demoUrl: "https://stackscope.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "PixifyStory",
+    description:
+      "AI-powered story and video generation platform built with React.js. Integrates Replicate API for content generation and Nano Banana API for video creation with asynchronous data workflows.",
+    image: "/projects/project4.png",
+    tags: ["React.js", "Replicate API", "Nano Banana API"],
+    demoUrl: "https://pixifystory.com/", // update if needed
   },
 ];
 
